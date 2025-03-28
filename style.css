@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #01949A;
+}
+
+#game{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: 1rem;
+}
+
+canvas{
+    /* height: 600px; */
+    /* width: 300px; */
+    margin-top: 0.5rem;
+    background-color: #E5DDC8;
+    border: 0.5rem solid whitesmoke;
+}
+
+button{
+    height: 2rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    border: 3px solid black;
+    background-color: #E5DDC8;
+}
